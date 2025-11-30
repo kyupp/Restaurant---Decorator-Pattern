@@ -4,8 +4,8 @@
 
 package com.mycompany.main;
 
-import Aditionals.Avocado;
-import Aditionals.Drink;
+import Additionals.Avocado;
+import Additionals.Drink;
 import Base.Subguey;
 import Proteins.Beef;
 import Sizes.Subguey30;

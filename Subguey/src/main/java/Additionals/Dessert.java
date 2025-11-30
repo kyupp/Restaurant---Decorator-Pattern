@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Aditionals;
+package Additionals;
 
 import Base.Size;
 import Base.Subguey;
@@ -12,23 +12,23 @@ import Decorator.SubgueyDecorator;
  *
  * @author gabri
  */
-public class DoubleProtein extends SubgueyDecorator {
+public class Dessert extends SubgueyDecorator {
 
-    public DoubleProtein(Subguey subguey) {
+    public Dessert(Subguey subguey) {
         super(subguey);
     }
     
     @Override
     public String getDescription(){
-        return super.getDescription() + ", Doble Proteína";
+        return super.getDescription() + ", Postre";
     }
     
     @Override
     public double getCost(){
         if(getSize() == Size.SMALL15){
-            return super.getCost()+4.5;
+            return super.getCost()+3.5;
         }else{
-            return super.getCost()+8;
+            return super.getCost()+3.5;
         } 
     } 
 }
